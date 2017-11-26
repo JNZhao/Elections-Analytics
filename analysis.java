@@ -138,8 +138,8 @@ public class Assignment2 extends JDBCSubmission {
             String url;
             String username;
             String password;
-            url = "jdbc:postgresql://localhost/csc343h-tianti10";
-            username = "tianti10";
+            url = "jdbc:postgresql://localhost/csc343h-zhaoji81";
+            username = "zhaoji81";
             password = "";
             a1.connectDB(url,username,password);
             ElectionCabinetResult test = a1.electionSequence("France");
