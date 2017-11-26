@@ -44,7 +44,6 @@ WHERE e1.votes>=ALL(
 -- count times of a party has won.
 DROP VIEW IF EXISTS numwon CASCADE;
 CREATE VIEW numwon AS     
--- ***********************numwon  -> timesofwown
 SELECT pid, count(eid) as wonelections
 FROM winners
 GROUP BY pid;
